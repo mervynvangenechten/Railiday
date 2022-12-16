@@ -146,7 +146,7 @@ nav .nav-top ul {
 }
 
 nav .nav-top ul li a {
-    margin-left: 2.5vw;
+    margin-left: 0.5vw;
 }
 
 nav .nav-bottom {
@@ -172,15 +172,19 @@ nav .nav-bottom ul {
 }
 
 nav .nav-bottom ul li a {
-    margin-left: 1.75vw;
+    margin-left: 0.5vw;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 .page-box {
+    width: 60%;
     padding-top: 25px;
     padding-bottom: 50px;
-    padding-left: 15%;
-    padding-right: 15%;
-    box-shadow: 0 -7.5px 7.5px -7.5px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -201,4 +205,14 @@ footer .footer-item b {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.25rem;
+}
+
+.overflow-box {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    table-layout: fixed!important;
+    border-collapse: collapse;
 }

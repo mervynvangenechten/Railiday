@@ -8,13 +8,13 @@
     <title>Railiday: ontdek Europa per trein!</title>
     <link rel="stylesheet" href="../assets/style.css">
     <link rel="stylesheet" href="../assets/responsive.css">
-    <script src="assets/script.js" defer></script>
+    <script src="../assets/script.js" defer></script>
     <script src="https://kit.fontawesome.com/bf37516dbe.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header style="background-image:url(../img/20211031_103433.jpg)">
+    <header style="background-image:url(../img/own-images/2021/20211031_103433.jpg)">
         <nav>
             <div class="nav-top">
                 <ul>
@@ -40,6 +40,31 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="mobile-nav">
+            <div class="mobile-nav-left">
+                <img src="../assets/Railday_Origineel.svg">
+            </div>
+
+            <div class="mobile-nav-right">
+                <span style="height:25px;font-size:25px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+            </div>
+
+            <div id="myNav" class="nav-overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="nav-overlay-content">
+                    <a href="../index.html">Startpagina</a>
+                    <a href="../tickets/index.html">Tickets</a>
+                    <a href="../citytrip/index.html">Citytrips</a>
+                    <a href="../rail-tours/index.html">Rondreizen</a>
+                    <a href="../interrail/index.html">Interrail</a>
+                    <a href="../blog/index.html">Blog</a>
+                    <a href="../gallery/index.html">Fotogalerij</a>
+                    <a href="../news/index.html">Nieuws</a>
+                    <a href="../contact/index.html">Contact</a>
+                </div>
+            </div>
+        </div>
 
         <div class="overlay">
             <div class="title">
@@ -69,31 +94,23 @@
 
         <b>België</b>
         <ul>
-            <li><a href="BE/">NMBS MS08 (Desiro ML)</a></li>
-            <li><a href="BE/">NMBS MS86 (Sprinter)</a></li>
+            <li><a href="BE/NMBS_MS08.html">NMBS MS08 (Desiro ML)</a></li>
+            <li><a href="BE/NMBS_MS86.html">NMBS MS86 (Sprinter)</a></li>
         </ul>
         <div style="height:7.5px"></div>
         <ul>
-            <li><a href="BE/">NMBS M7</a></li>
-        </ul>
-        <div style="height:7.5px"></div>
-        <ul>
-            <li><a href="BE/">MIVB Mx</a></li>
-            <li><a href="BE/">MIVB BOA</a></li>
-            <li><a href="BE/">MIVB M7</a></li>
-            <li><a href="BE/">MIVB T2000</a></li>
-            <li><a href="BE/">MIVB T3000/T4000</a></li>
-            <li><a href="BE/">MIVB T7700/T7800</a></li>
+            <li><a href="BE/MIVB_Mx.html">MIVB Mx</a></li>
+            <li><a href="BE/MIVB_M7.html">MIVB M7</a></li>
+            <li><a href="BE/MIVB_T2000.html">MIVB T2000</a></li>
+            <li><a href="BE/MIVB_T3000_T4000.html">MIVB T3000/T4000</a></li>
+            <li><a href="BE/MIVB_T7700_T7800.html">MIVB T7700/T7800</a></li>
         </ul>
 
         <div style="height:25px"></div>
 
         <b>Duitsland</b>
         <ul>
-            <li><a href="DE/">DB BR406 (ICE 3M)</a></li>
-            <li><a href="DE/">DB BR411 (ICE T)</a></li>
             <li><a href="DE/">DB BR462 (Desiro HC)</a></li>
-            <li><a href="DE/">DB BR1440 (Coradia)</a></li>
         </ul>
 
         <div style="height:25px"></div>
@@ -107,32 +124,10 @@
 
         <b>Oostenrijk</b>
         <ul>
-            <li><a href="AT/">ÖBB 4024 (Talent)</a></li>
             <li><a href="AT/">ÖBB 4744 (Desiro ML)</a></li>
         </ul>
-        <div style="height:7.5px"></div>
-        <ul>
-            <li><a href="AT/">ÖBB Railjet</a></li>
-            <li><a href="AT/">ÖBB Nightjet</a></li>
-            <li><a href="AT/">ÖBB CityShuttle-Wendezug (Wiesel)</a></li>
-        </ul>
-        <div style="height:7.5px"></div>
         <ul>
             <li><a href="AT/">IVB Flexity Outlook Cityrunner</a></li>
-        </ul>
-
-        <div style="height:25px"></div>
-
-        <b>Tsjechië</b>
-        <ul>
-            <li><a href="">ČD Railjet</a></li>
-        </ul>
-
-        <div style="height:25px"></div>
-
-        <b>Zwitserland</b>
-        <ul>
-            <li><a href="CH/">SOB RaBe 526 (FLIRT)</a></li>
         </ul>
 
         <hr>
