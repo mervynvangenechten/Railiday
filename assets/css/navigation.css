@@ -30,6 +30,7 @@ nav .laptop-nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 nav .laptop-nav ul li {
@@ -172,6 +173,7 @@ footer section#middle {
 
 footer section#middle ul {
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 footer section#middle ul li {

@@ -1,18 +1,41 @@
 @media screen and (max-width: 900px) {
-    section {
+    section, header.h-image .h-image-overlay, header.h-text {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    section.flex, section.flex-top, .flex-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main {
+        min-height: 75vh;
+    }
+
+    .img-box, .text-box {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .text-box {
+        margin-bottom: 2.5%;
     }
 }
 
 
 @media screen and (min-width: 1500px) {
-    nav, section {
+    nav, section, header.h-image .h-image-overlay, header.h-text {
         padding-left: 12.5%;
         padding-right: 12.5%;
     }
 
     nav .laptop-nav {
         width: 60%;
+    }
+
+    h1 {
+        font-size: 4.5rem;
     }
 }
