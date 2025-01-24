@@ -1,6 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 body {
     font-family: "Livvic", "sans serif";
-    font-size: 1.05rem;
+    font-size: 1.025rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+
+
+/* Lay-Out */
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.gray {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(240, 240, 240);
+}
+
+section.first {
+    padding-top: 7.5px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.last {
+    padding-top: 30px;
+    padding-bottom: 7.5px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section.last-gray {
+    padding-top: 30px;
+    padding-bottom: 7.5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+/* Tekst */
+h1 {
+    font-family: "Ubuntu", "sans serif";
+    font-size: 3.25rem;
+    font-weight: 500;
+    color: rgb(45, 46, 131);
+}
+
+h2 {
+    font-family: "Ubuntu", "sans serif";
+}
+
+h3 {
+    font-family: "Ubuntu", "sans serif";
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(45, 46, 131);
+}
+
+h4 {
+    font-family: "Ubuntu", "sans serif";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(138, 203, 193);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+#center {
+    text-align: center;
+}
+
+
+
+/* Header */
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header .header-image {
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+header .header-text {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Destination box */
+.destination-box {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12.5px;
+}
+
+.destination-box a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 0.9rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    justify-content: flex-end;
+    border-radius: 12.5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.destination-box a b {
+    font-family: "Ubuntu", "sans serif";
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.destination-box:hover a {
+    padding-bottom: 20px;
+}
+
+
+/* Spacing */
+.spacing-10 {
+    height: 10px;
+}
+
+
+/* SVG */
+svg path {
+    fill: rgb(191, 191, 191);
+    transition: all 0.3s ease-in-out;
+}
+
+svg path:hover {
+    fill: rgb(45, 46, 131);
 }

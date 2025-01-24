@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+    /* Lay-Out */
+    section, section.gray, section.first, section.last, section.last-gray {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }  
+
+
+    /* Navigatie */
+    nav {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        background-color: rgb(255, 255, 255);
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    nav .nav-top {
+        height: 5vh;
+        justify-content: space-between;
+    }
+
+    nav .nav-top a img {
+        height: 4vh;
+    }
+
+    nav .nav-top .nav-top-mobile {
+        display: unset;
+    }
+
+    nav .nav-bottom {
+        display: none;
+    }
+
+
+    /* Header */
+    header .header-text {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+
+    /* Flexbox */
+    .flex, .flex-no-gap {
+        display: flex;
+        flex-direction: column;
+        column-gap: 0px;
+        row-gap: 7.5px;
+    }
+
+    .flex-scroll {
+        overflow-x: scroll;
+    }
+
+    .flex-scroll .destination-box {
+        width: 40vw;
+    }
+
+    .flex-05, .flex-10, .flex-15, .flex-20, .flex-25, .flex-30, .flex-33, .flex-35, .flex-40, .flex-45, .flex-50, .flex-55, .flex-60, .flex-65, .flex-66, .flex-70, .flex-75, .flex-80, .flex-85, .flex-90, .flex-95, .flex-100 {
+        width: 100%;
+        height: max-content;
+    }
+
+    #img, #img-border {
+        height: 25vh;
+    }
+
+    section#country-guides {
+        display: none;
+    }
+}
