@@ -24,7 +24,186 @@
 
 
 <body>
-    Welkom bij Railiday!
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="assets/branding/Railday_Origineel.svg">
+            </a>
+        </div>
+
+        <div class="nav-right-laptop">
+            <ul>
+                <li><a href="citytrip/citytrip.html">Stedentrips</a></li>
+                <li><a href="tours/tours.html">Rondreizen</a></li>
+                <li><a href="tickets-passes/index.html">Tickets</a></li>
+                <li><a href="tickets-passes/passes/interrail-eurail.html">Interrail</a></li>
+                <li><a href="tickets-passes/passes/fip.html">FIP</a></li>
+                <li><a href="news/news.html">Nieuws</a></li>
+                <li><a href="about/about-us.html">Over ons</a></li>
+                <li><a href="contact/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right-mobile">
+                <span class="mobile-nav-link" onclick="openNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+                <div id="myNav" class="nav-overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="nav-overlay-content">
+                        <a href="citytrip/citytrip.html">Stedentrips</a>
+                        <a href="tours/tours.html">Rondreizen</a>
+                        <a href="tickets-passes/index.html">Tickets</a>
+                        <a href="tickets-passes/passes/interrail-eurail.html">Interrail</a>
+                        <a href="tickets-passes/passes/fip.html">FIP</a>
+                        <a href="news/news.html">Nieuws</a>
+                        <a href="about/about-us.html">Over ons</a>
+                        <a href="contact/contact.html">Contact</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+
+    <header class="image" style="background-image: url(assets/img/RhB/Capricorn-Triebzug-beim-Kloster-Disentis.jpg);" data-aos="fade-up">
+        <div class="header-overlay">
+            <h1>Ontdek Europa per trein</h1>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="intro" data-aos="fade-up">
+            <div class="flex">
+                <div class="flex-40">
+                    <div class="image-box" style="background-image: url(assets/img/Railiday/mvg/20230809_124125.jpg);"></div>
+                </div>
+
+                <div class="flex-60 text-box">
+                    <h3>Ontdek Europa per trein</h3>
+
+                    <p>
+                        Reizen door Europa met de trein is veel meer dan simpelweg vervoer van A naar B.<br> 
+                        Het is een manier van reizen waarbij het onderweg zijn even belangrijk wordt als de bestemming zelf, je beweegt door het continent in een tempo dat ruimte laat om te kijken, te voelen en te verbinden.<br> 
+                        Geen haastige terminals of eindeloze asfaltwegen, maar een langzaam wisselend panorama van berglandschappen, rivieroevers, bossen, velden en stadssilhouetten die zich als vanzelf aan je tonen.<br>
+                    </p>
+
+                    <p>
+                        Of je nu op weg bent naar <a href="citytrip/fr-paris.html">Parijs</a>, <a href="citytrip/cz-praha.html">Praag</a> of een <a href="citytrip/at-innsbruck.html">verborgen parel in de Alpen</a>, per trein zie je Europa op ooghoogte.<br>
+                        Je voelt de afstand, ziet de overgangen tussen regio's, hoort nieuwe talen op het perron en merkt hoe elk station zijn eigen ritme heeft.<br>
+                    </p>
+
+                    <p>
+                        Railiday is jouw gids door het spoorwegnet van Europa, je vindt hier niet alleen informatie over bekende routes zoals de Glacier Express of de Eurostar, maar ook verhalen over trage zijlijnen, historische trajecten en onbekende parels tussen bergen, meren of verlaten kusten.<br> 
+                        Verwacht inspiratie, praktische tips, regioportretten en routevoorstellen voor wie met aandacht wil reizen, bewust, comfortabel en open voor wat onderweg op je pad komt.<br>
+                    </p>
+
+                    <p class="last">
+                        Treinreizen is duurzaam, verrassend betaalbaar, en bovenal: een ervaring op zich, traag als het mag, snel als het kan maar altijd verbonden met het landschap, de mensen en de plekken die je anders misschien zou missen.<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="citytrip" data-aos="fade-up">
+            <h2 class="center">Bestemmingen in de kijker</h2>
+
+            <div class="flex">
+                <div class="flex-20">
+                    <a href="citytrip/at-innsbruck.html">
+                        <div class="image-box" style="background-image: url(assets/img/Unsplash/AT-Innsbruck-01.jpg);">
+                            <div class="image-overlay">
+                                <b>Innsbruck</b>
+                                Oostenrijk
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a href="citytrip/fr-paris.html">
+                        <div class="image-box" style="background-image: url(assets/img/Unsplash/FR-Paris-01.jpg);">
+                            <div class="image-overlay">
+                                <b>Parijs</b>
+                                Frankrijk
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a href="citytrip/uk-london.html">
+                        <div class="image-box" style="background-image: url(assets/img/Unsplash/UK-London-01.jpg);">
+                            <div class="image-overlay">
+                                <b>Londen</b>
+                                Verenigd Koninkrijk
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a href="citytrip/cz-praha.html">
+                        <div class="image-box" style="background-image: url(assets/img/Unsplash/CZ-Praha-01.jpg);">
+                            <div class="image-overlay">
+                                <b>Praag</b>
+                                Tsjechië
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex-20">
+                    <a href="citytrip/at-wien.html">
+                        <div class="image-box" style="background-image: url(assets/img/Unsplash/AT-Wien-01.jpg); margin-right: 0px;">
+                            <div class="image-overlay">
+                                <b>Wenen</b>
+                                Oostenrijk
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-top">
+            <b>Gebruikte afbeeldingen</b><br>
+            © Railiday, Rhätische Bahn / Andrea Badrutt, Michelangelo Azzariti, Michael Fousert, Alex Azabache, Francisco Torres, Claus Grünstäudl
+        </div>
+
+        <div class="footer-middle">
+            <a href="index.html">
+                <img src="assets/branding/Railday_Origineel.svg">
+            </a>
+
+            <ul>
+                <li><a href="legal/passenger-rights.html">Europese reizigersrechten ></a></li>
+                <li><a href="other/passengers-reduced-mobility.html">Reizigers met een beperkte mobiliteit ></a></li>
+                <li><a href="other/groups.html">Groepsreizen ></a></li>
+                <li><a href="other/contact-toc.html">Contactgegevens spoorwegmaatschappijen ></a></li>
+                <li><a href="contact/contact.html">Contactgegevens Railiday ></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <ul>
+                <li><a href="legal/disclaimer.html">Disclaimer</a></li>
+                <li><a href="legal/general-conditions.html">Algemene voorwaarden</a></li>
+                <li><a href="legal/special-conditions.html">Bijzondere voorwaarden</a></li>
+                <li><a href="legal/privacy.html">Privacybeleid</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-copyright">
+            <p>
+                Gemaakt met veel liefde en passie in België door Mervyn Vangenechten<br>
+                © Railiday, 2023 — 2025
+            </p>
+        </div>
+    </footer>
 </body>
 
 <script src="assets/js/script.js"></script>
