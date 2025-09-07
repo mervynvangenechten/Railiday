@@ -5,6 +5,13 @@
         margin-right: 5%;
     }
 
+    main.main-flex {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     header {
         margin-top: 12.5vh;
     }
@@ -28,6 +35,12 @@
 
     .flex-scroll .flex-5, .flex-scroll .flex-10, .flex-scroll .flex-15, .flex-scroll .flex-20, .flex-scroll .flex-25, .flex-scroll .flex-30, .flex-scroll .flex-33, .flex-scroll .flex-35, .flex-scroll .flex-40, .flex-scroll .flex-45, .flex-scroll .flex-50, .flex-scroll .flex-55, .flex-scroll .flex-60, .flex-scroll .flex-65, .flex-scroll .flex-66, .flex-scroll .flex-70, .flex-scroll .flex-75, .flex-scroll .flex-80, .flex-scroll .flex-85, .flex-scroll .flex-90, .flex-scroll .flex-95 {
         width: max-content;
+    }
+
+    .main-25, .main-75 {
+        width: 100%;
+        position: relative;
+        top: 0;
     }
 
     .item-box {

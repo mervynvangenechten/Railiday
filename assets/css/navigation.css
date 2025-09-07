@@ -186,3 +186,39 @@ footer .footer-bottom ul li {
         display: block;
     }
 }
+
+
+
+/* PAGE NAV */
+.main-25 b {
+    font-family: "Figtree", "sans serif";
+    font-size: 1.1rem;
+    color: rgb(45, 46, 131);
+}
+
+ul.page-nav {
+    display: inline-block;
+    margin-left: 30px;
+    list-style-type: square;
+}
+
+ul.page-nav li {
+    margin-bottom: 5px;
+}
+
+ul.page-nav li ul {
+    margin-left: 30px;
+}
+
+ul.page-nav li ul li {
+    margin-bottom: 0px;
+}
+
+ul.page-nav li a, ul.page-nav li ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.page-nav li a:hover, ul.page-nav li ul li a:hover {
+    text-decoration: underline;
+}
