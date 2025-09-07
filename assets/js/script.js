@@ -14,7 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     const target = document.querySelector(this.getAttribute('href'));
     
     let offset;
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 992) {
       offset = window.innerHeight * 0.125;
     } else {
       offset = window.innerHeight * 0.15;
