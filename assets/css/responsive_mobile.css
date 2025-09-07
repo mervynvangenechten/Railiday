@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+    header, main {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    header {
+        margin-top: 12.5vh;
+    }
+
+    header.image-overlay {
+        height: 82.5vh;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex-scroll {
+        overflow-x: scroll;
+        gap: 15px;
+    }
+
+    .flex .flex-5, .flex .flex-10, .flex .flex-15, .flex .flex-20, .flex .flex-25, .flex .flex-30, .flex .flex-33, .flex .flex-35, .flex .flex-40, .flex .flex-45, .flex .flex-50, .flex .flex-55, .flex .flex-60, .flex .flex-65, .flex .flex-66, .flex .flex-70, .flex .flex-75, .flex .flex-80, .flex .flex-85, .flex .flex-90, .flex .flex-95 {
+        width: 100%;
+    }
+
+    .flex-scroll .flex-5, .flex-scroll .flex-10, .flex-scroll .flex-15, .flex-scroll .flex-20, .flex-scroll .flex-25, .flex-scroll .flex-30, .flex-scroll .flex-33, .flex-scroll .flex-35, .flex-scroll .flex-40, .flex-scroll .flex-45, .flex-scroll .flex-50, .flex-scroll .flex-55, .flex-scroll .flex-60, .flex-scroll .flex-65, .flex-scroll .flex-66, .flex-scroll .flex-70, .flex-scroll .flex-75, .flex-scroll .flex-80, .flex-scroll .flex-85, .flex-scroll .flex-90, .flex-scroll .flex-95 {
+        width: max-content;
+    }
+
+    .item-box {
+        width: 150px;
+    }
+}
