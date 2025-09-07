@@ -97,6 +97,7 @@ header.image-overlay .header-overlay {
     background-color: rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     align-items: flex-end;
+    justify-content: center;
 }
 
 header.image-overlay .header-overlay h1 {
